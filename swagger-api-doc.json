@@ -1,0 +1,157 @@
+{
+  "info": {
+    "title": "Student and Classes",
+    "version": "1.0.0",
+    "description": "API details for student and class "
+  },
+  "servers": [
+    {
+      "url": "http://localhost:5000",
+      "description": "Local development server"
+    }
+  ],
+  "swagger": "2.0",
+  "paths": {
+    "/class/create-class": {
+      "post": {
+        "summary": "create a new class",
+        "responses": {
+          "200": {
+            "description": "Successful response",
+            "content": {
+              "application/json": {
+                "example": {
+                  "message": "Hello, Swagger!"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/class/update-class/:id": {
+      "put": {
+        "summary": "Update a class with the specified ID",
+        "responses": {
+          "200": {
+            "description": "Successful response",
+            "content": {
+              "application/json": {
+                "example": {
+                  "message": "Hello, Swagger!"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/class/delete-class/:id": {
+      "delete": {
+        "summary": "Delete a class with the specified ID",
+        "responses": {
+          "200": {
+            "description": "Successful response",
+            "content": {
+              "application/json": {
+                "example": {
+                  "message": "Hello, Swagger!"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/class/list-class": {
+      "get": {
+        "summary": "Returns all the class",
+        "responses": {
+          "200": {
+            "description": "Successful response",
+            "content": {
+              "application/json": {
+                "example": {
+                  "message": "Hello, Swagger!"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/students/create-student": {
+      "post": {
+        "summary": "create a new student",
+        "responses": {
+          "200": {
+            "description": "Successful response",
+            "content": {
+              "application/json": {
+                "example": {
+                  "message": "Hello, Swagger!"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/students/update-student/:id": {
+      "put": {
+        "summary": "update an existing student with ID",
+        "responses": {
+          "200": {
+            "description": "Successful response",
+            "content": {
+              "application/json": {
+                "example": {
+                  "message": "Hello, Swagger!"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/students/delete-student/:id": {
+      "delete": {
+        "summary": "delete an existing student with ID",
+        "responses": {
+          "200": {
+            "description": "Successful response",
+            "content": {
+              "application/json": {
+                "example": {
+                  "message": "Hello, Swagger!"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/students/list-students": {
+      "get": {
+        "summary": "list all students",
+        "responses": {
+          "200": {
+            "description": "Successful response",
+            "content": {
+              "application/json": {
+                "example": {
+                  "message": "Hello, Swagger!"
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "definitions": {},
+  "responses": {},
+  "parameters": {},
+  "securityDefinitions": {},
+  "tags": []
+}
